@@ -10,8 +10,14 @@
       <span id="txtOut" style="white-space: nowrap"></span>
     </div>
     <ol>
-      <li>[Write the question here, and copy this for more questions]</li>
-      <p>[Write your answer here, and copy this for more answers]</p>
+      <li>1. In part 1, is it possible to solve the problem using a single "for" loop?</li>
+      <p>Yes, a single for loop could be used to build both lines at the same time. However, using two loops is simpler and easier to read.</p>
+      <li>2. In part 2, can we create what is known as an "infinite" loop within the condition of the "while" loop?</li>
+      <p>Yes. An infinite loop happens when the while condition never becomes false. In the guessing game, it would become infinite if the correct number can never be guessed or if the guess is never updated.</p>
+      <li>3. Discuss briefly how quickly or slowly a computer might be able to compute this, considering the number of guesses and the time it takes. How does the program behave while it is guessing? Can the program perform other tasks concurrently?</li>
+      <p>Computers can generate and check thousands or millions of guesses very quickly. While the program is inside the while loop, it keeps guessing until it finds the correct number. The code after the loop must wait until the loop is finished.</p>
+      <li>4. Explain the relationship between rows and columns in nested "for" loops. Can we change the order?</li>
+      <p>In nested loops, the outer loop usually controls the rows and the inner loop controls the columns. The order can be changed, but it changes how the output is printed. For this assignment, rows should be the outer loop and columns the inner loop.</p>
     </ol>
     <script type="module" src="./task_3-2.mjs" defer></script>
   </body>
